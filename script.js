@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const resultIcon = document.querySelector('.result-icon');
 
     // API endpoint
-    const API_URL = 'http://localhost:8000/predict';
+    const API_URL = 'https://diabetes-pred-api-9woo.onrender.com/predict';
 
     // Form validation
     function validateForm() {
